@@ -16,7 +16,6 @@ export default function Products() {
   const [categories, setCategories] = useState([]); // List of categories
   const [selectedCategory, setSelectedCategory] = useState("All");
   const { addToCart } = useCart(); // Cart context for adding items
-
   useEffect(() => {
     if (id) {
       fetchProductsByCategory(id);

@@ -1,5 +1,3 @@
-// src/App.jsx
-
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import Layout from "./components/Layout/Layout";
@@ -11,12 +9,10 @@ import { AuthContextProvider } from "./Context/AuthContext";
 import { CartProvider } from "./Context/CartContext";
 import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute";
 import ProtectedAuthRoutes from "./components/ProtectedAuthRoutes/ProtectedAuthRoutes";
-import ErrorBoundary from "./components/ErrorBoundary/ErrorBoundary_temp.jsx";
 import ProductDetails from "./components/ProductDetails/ProductDetails";
 import Products from "./components/Products/Products";
 import Brands from "./components/Brands/Brands";
 import BrandDetails from "./components/Brands/BrandDetails";
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -27,7 +23,6 @@ const router = createBrowserRouter([
         </CartProvider>
       </AuthContextProvider>
     ),
-    errorElement: <ErrorBoundary />,
     children: [
       {
         path: "/",
