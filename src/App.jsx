@@ -11,7 +11,7 @@ import { AuthContextProvider } from "./Context/AuthContext";
 import { CartProvider } from "./Context/CartContext";
 import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute";
 import ProtectedAuthRoutes from "./components/ProtectedAuthRoutes/ProtectedAuthRoutes";
-import ErrorBoundary from "./components/ErrorBoundary/ErrorBoundary.JSX";
+import ErrorBoundary from "./components/ErrorBoundary/ErrorBoundary_temp.jsx";
 import ProductDetails from "./components/ProductDetails/ProductDetails";
 import Products from "./components/Products/Products";
 import Brands from "./components/Brands/Brands";
