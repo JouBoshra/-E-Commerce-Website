@@ -4,7 +4,7 @@ This is a fully responsive E-Commerce application built using modern web technol
 
 ---
 
-![E-Commerce App]<div align="center">
+<div align="center">
 <img alt="Demo" src="./coverIMG.png" />
 
 </div>
